@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2809456c-e2ff-461d-9294-0b7ac075a180" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GroupCreationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GroupDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GroupDeletionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.GroupCreationTests (1).executor": "Run",
     "Gradle.GroupCreationTests.executor": "Run",
     "Gradle.GroupDeletionTests (1).executor": "Run",
     "Gradle.GroupDeletionTests.executor": "Run",
@@ -100,6 +100,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.addressbook.appmanager" />
       <recent name="ru.stqa.pft.addressbook" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -110,6 +111,30 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.GroupDeletionTests (1)">
+    <configuration name="GroupCreationTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.GroupCreationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,30 +207,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GroupDelitionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.addressbook.GroupDelitionTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="Tests in 'ru.stqa.pft.addressbook'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -252,19 +253,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.addressbook-web-tests" />
+      <item itemvalue="Gradle.GroupCreationTests (1)" />
       <item itemvalue="Gradle.GroupDeletionTests (1)" />
       <item itemvalue="Gradle.GroupCreationTests" />
       <item itemvalue="Gradle.GroupDeletionTests" />
-      <item itemvalue="Gradle.GroupDelitionTests" />
       <item itemvalue="Gradle.Tests in 'ru.stqa.pft.addressbook'" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.GroupDeletionTests (1)" />
+        <item itemvalue="Gradle.GroupCreationTests (1)" />
         <item itemvalue="Gradle.Tests in 'ru.stqa.pft.addressbook'" />
         <item itemvalue="Gradle.GroupCreationTests" />
         <item itemvalue="Gradle.GroupDeletionTests" />
-        <item itemvalue="Gradle.GroupDelitionTests" />
       </list>
     </recent_temporary>
   </component>
